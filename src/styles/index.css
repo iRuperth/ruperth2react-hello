@@ -2,11 +2,10 @@
     text-align: center;
     background: black;
     display: flex;
-    justify-content: center; /* Centrado horizontal */
-align-items: center; /* Centrado vertical */
-height: 100vh; /* Establece el alto de la vista de la ventana */
+    justify-content: center;
+align-items: center; 
+height: 100vh; 
 }
-
 
 .BigCounter div{
     display: inline-block;
@@ -17,22 +16,17 @@ height: 100vh; /* Establece el alto de la vista de la ventana */
     padding: 10px;
 }
 
-
 .BigCounter div {
     margin: 10px;
-    border-radius: 10px; /* ajusta el radio según sea necesario */
-  }
+    border-radius: 10px; 
+}
 
-  .ticTac{
-
+.ticTac{
     margin-bottom: 20px;
-  }
+}
 
 
 .Tittle{
-
     color: white;
-
-    
 }
 
