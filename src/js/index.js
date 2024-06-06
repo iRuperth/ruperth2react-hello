@@ -2,11 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom";
 import PropTypes from "prop-types";
 
-// incluye tus estilos en el paquete de webpack
 import "../styles/index.css";
 
 function SimpleCounter(props) {
-  // Mapeamos cada dígito a un color específico
+
   const digitColors = {
     0: "white",
     1: "blue",
@@ -66,7 +65,7 @@ setInterval(function () {
   const uno = Math.floor(Contador / 1);
   console.log(seis, cinco, cuatro, tres, dos, uno);
   Contador++;
-  // renderiza tu aplicación React
+  
   ReactDOM.render(
     <SimpleCounter
       digitUno={uno}
